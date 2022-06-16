@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dragon_groups</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <div id="wallet">
+        <div id="wallet-label">
+          <span>Wallet</span>
+          <span id="wallet-value">0 naira</span>
+          <span id="wallet-input-i"><input type="number" id="wallet-input" /></span>
+        </div>
+        <div id="add-to-wallet">
+          <span onClick="updateWallet()" id="wallet-input-open">+</span>
+          <span onClick="addToWallet()" id="wallet-add">Add</span>
+        </div>
+      </div>
+      <div id="cart">
+        <span id="cart-number">0</span>
+        <span onClick="payCartValue()" id="cart-link">Pay Cart Total</span>
+      </div>
+    </header>
+    <section>
+      <div id="sub-container">
+        <!--   ==============    -->
+        <div class="display-item">
+          <div id="itemsimages">
+            <span>unisex shade</span>
+          </div>
+          <div class="item-data">
+            <span class="price">N100</span>
+            <span id="item_1" class="add-to-cart">+</span>
+          </div>
+        </div>
+        <!--   ==============    -->
+        <div class="display-item">
+          <div id="item-image">
+            <span>sweat suit</span>
+          </div>
+          <div class="item-data">
+            <span class="price">N150</span>
+            <span id="item_2" class="add-to-cart">+</span>
+          </div>
+        </div>
+        <!--   ==============    -->
+        <div class="display-item">
+          <div id="itemsimage">
+            <span>sneakers</span>
+          </div>
+          <div class="item-data">
+            <span class="price">N250</span>
+            <span id="item_3" class="add-to-cart">+</span>
+          </div>
+        </div>
+        <div class="display-item">
+          <div id="showglass">
+            <span>bags</span>
+          </div>
+          <div class="item-data">
+            <span class="price">N400</span>
+            <span id="item_4" class="add-to-cart">+</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>

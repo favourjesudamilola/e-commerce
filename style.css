@@ -1,0 +1,156 @@
+html,
+body {
+  height: 100%;
+}
+#container {
+  width: 100%;
+  height: 95%;
+  background-color: beige;
+ /* background-image: url(dragon.jpeg);
+  background-size: contains;
+  /*   border: 1px solid #000; */
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  border-bottom: 4px solid #ddc0c0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wallet {
+  background: #ddc0c0;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  height: 80%;
+}
+
+#cart {
+  width: 40%;
+  height: 80%;
+}
+
+#wallet-label {
+  display: flex;
+  width: 60%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#wallet-input {
+  width: 80px;
+  height: 20px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+#add-to-wallet {
+  float: right;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+#wallet-input-i,
+#wallet-add {
+  display: nones;
+}
+
+#cart {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#cart-number {
+  border-radius: 10px;
+  background: #c4c4c4;
+  padding: 8px;
+}
+
+#cart-link {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#sub-container {
+  width: 80%;
+  /*   min-height: 100%; */
+  height: 60%;
+  /*   border: 1px solid grey; */
+  margin: auto;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.display-item {
+  /**background-image: url(itm1.jpeg);*/
+}
+#itemsimages{
+  height: 180px;
+  width: 150px;
+  background: url(itm1.jpeg);
+  background-size: contain;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 180px;
+}
+
+#item-image{
+  height: 180px;
+  width: 150px;
+  background: url(itm2.jpeg);
+  background-size: contain;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 180px;
+}
+
+#itemsimage {
+  height: 180px;
+  width: 150px;
+  background: url(itm3.jpeg);
+  background-size: contain;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 180px;
+}
+#showglass {
+  height: 180px;
+  width: 150px;
+  background: url(itm4.webp);
+  background-size: contain;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 180px;
+}
+
+
+.item-data {
+  height: 30px;
+  width: 150px;
+  /*   background: #E5D8D8 */
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.price {
+  width: 50%;
+  text-align: center;
+}
+
+.add-to-cart {
+  width: 40%;
+  cursor: pointer;
+  text-align: center;
+}
